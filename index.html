@@ -39,12 +39,33 @@
 <main>
 <h2>Playlist Syncer</h2>
   <p>Playlist Syncer is a Web app to help users transfer their music playlists between Apple Music and Spotify<p>
-  <p>Our Team consists of Three members:<p>
-  <ul>
-    <a href="https://www.linkedin.com/in/nikita-smith-193255239/"><li>Nikita Smith - Team Lead and Lead Backend Engineer</li></a>
-    <a href="https://www.linkedin.com/in/joshua-poore/"><li>Josh Poore - Lead Frontend Engineer</li></a>
-    <a href="https://www.linkedin.com/in/benjamin-pallotti/"><li>Ben Pallotti - Lead Technical Writer</li></a>
-  </ul>
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+  <p>Our Team consists of Three members:</p>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/NS.png" alt="Nikita Smith" width="100">
+      <a href="https://www.linkedin.com/in/nikita-smith-193255239/">Nikita Smith - Team Lead and Lead Backend Engineer</a>
+    </div>
+    <div class="team-member">
+      <img src="images/JP.jpg" alt="Josh Poore" width="100">
+      <a href="https://www.linkedin.com/in/joshua-poore/">Josh Poore - Lead Frontend Engineer</a>
+    </div>
+    <div class="team-member">
+      <img src="images/BP.jpg" alt="Ben Pallotti" width="100">
+      <a href="https://www.linkedin.com/in/benjamin-pallotti/">Ben Pallotti - Lead Technical Writer</a>
+    </div>
+  </div>
   <p>This Project was created for KSU Spring 2024 CS4850-02 as Project Indy-02 Playlist Syncer<p>
   <p>All of our project contents can be accessed via the left-side Content links, for any inqueries or assistance please contact us at:<p>
   <a href= "mailto: indy02playlistsync@gmail.com">indy02playlistsync@gmail.com</a>
